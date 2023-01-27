@@ -1,5 +1,5 @@
 import { useEffect, useState, useReducer } from "react";
-import { todoReducer } from "../useReduce/reducer4/reducer";
+import { todoReducer } from './reducer'
 
 export const useTodo = () => {
     const [count, setCount] = useState(0);
